@@ -8,4 +8,25 @@ keeps track of installation procedure for new ubuntu (16.04 and 18.04) installti
 4. Configure the static ip address on the machine. (Need to figure out how this is done. The network install script was not successful on an ubuntu 18.04 machine following this approach.)
 5. Request RCC access from M.
 
-### Software installation
+### Upgrade packages
+At terminal run:
+1. `apt-get update`
+2. `apt-get upgrade`
+
+### Additional repositories
+
+#### Neurodebian
+1. `apt-get install neurodebian`
+2. `apt-get update`
+
+#### Chrome web browser
+Use the .deb file provided by google: https://www.google.com/chrome
+1. `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
+2. `sudo dpkg -i google-chrome-stable_current_amd64.deb`
+3. The .deb file will add the official Google repository to the system. Check `/etc/apt/sources.list.d/google-chrome.list`
+
+#### Docker
+
+
+
+
