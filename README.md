@@ -29,8 +29,8 @@ Use the .deb file provided by google: https://www.google.com/chrome
 Follow this website: https://docs.docker.com/engine/install/ubuntu/
 
 #### R
-* Follow this website: https://cran.r-project.org/bin/linux/ubuntu/
-* Investigate what how this ppa is managed: "ppa:c2d4u.team/c2d4u4.0+"
+* Follow this website: https://cran.r-project.org/bin/linux/ubuntu/fullREADME.html
+* Install the c2d4u ppa. This makes installing r packages so much easier.
 
 #### Afni
 Follow the installation instructions: https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/background_install/install_instructs/steps_linux_ubuntu20.html
